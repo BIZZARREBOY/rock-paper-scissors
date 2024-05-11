@@ -75,7 +75,7 @@ function playGame() {
     console.log(humanScore);
 
     if(computerScore > humanScore) {
-        console.log("You have lost :(");
+        console.log("You have lost :");
     } else if(computerScore === humanScore) {
         console.log("DRAW");
     } else {
