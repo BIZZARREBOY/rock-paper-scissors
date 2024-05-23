@@ -56,15 +56,13 @@ function playGame(humanChoice, computerChoice) {
     computer.textContent = `Computer: ${computerScore}`;
 
     if(humanScore === 5) {
-        result.textContent = "You win!!!";
+        result.textContent = "You win!!! Choose again";
         main.appendChild(result);
-        result.remove();
         computerScore = 0;
         humanScore = 0;
     } else if (computerScore === 5){
-        result.textContent = "You loose";
+        result.textContent = "You loose!!! Choose again";
         main.appendChild(result);
-        result.remove();
         computerScore = 0;
         humanScore = 0;
     } else {
